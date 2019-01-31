@@ -15,7 +15,7 @@
         /// <summary>
         /// Initial VividCryptography
         /// </summary>
-        /// <param name="key">Encryption/Decryption key 64bit</param>
+        /// <param name="key">Encryption/Decryption key 64Byte</param>
         public VividCryptography(string key)
         {
             this.key = key;

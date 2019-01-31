@@ -69,7 +69,7 @@
         /// <param name="plainText">Origin text</param>
         /// <param name="oldHash">Old hash</param>
         /// <param name="salt">Salt used with the old hash</param>
-        /// <returns></returns>
+        /// <returns>True when the the plaintext is the same as origin text</returns>
         public bool CompareHash(string plainText, string oldHash, byte[] salt)
         {
             var hash = this.GetPbkdf2Bytes(plainText, salt, this.hashSize);
