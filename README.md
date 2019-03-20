@@ -32,12 +32,12 @@ var salt = hashing.GetSalt();
 var hash = hashing.GetCipherText(plainText, salt);
 ```
 
-Hashing constructor parameters can be configured
+Hashing constructor parameters are:
 Parameter | Default value
 :---: | :---:
 hashSize  | 256
 saltSize  | 32
-iteration | 10.000
+iteration | 10000
 
 To compare hashing
 ```csharp
