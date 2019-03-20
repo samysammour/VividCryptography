@@ -33,6 +33,7 @@ var hash = hashing.GetCipherText(plainText, salt);
 ```
 
 Hashing constructor parameters are:
+
 Parameter | Default value
 :---: | :---:
 hashSize  | 256
