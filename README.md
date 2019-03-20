@@ -33,11 +33,11 @@ var hash = hashing.GetCipherText(plainText, salt);
 ```
 
 Hashing constructor parameters can be configured
-| Parameter     | default    |
-| ------------- |:----------:|
-| hashSize      | 256        |
-| saltSize      | 32         |
-| iterations    | 10000      |
+Parameter | Default value
+--- | ---
+hashSize | 256
+saltSize | 32
+iterations | 10.000
 
 To compare hashing
 ```csharp
